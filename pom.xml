@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+	<!--
+	 | POM Relationships
+	-->
+	<groupId>org.isma</groupId>
+    <artifactId>isma-tests</artifactId>
+    <version>0.1</version>
+    <parent>
+        <groupId>org.isma</groupId>
+        <artifactId>isma-pom</artifactId>
+        <version>SNAPSHOT</version>
+    </parent>
+	<!--
+	 | Project Information
+	-->
+    <name>myapi tests</name>
+	<description>apis communes de tests</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.isma</groupId>
+            <artifactId>isma-utils</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+		<dependency>
+            <groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+        </dependency>
+    </dependencies>
+    <scm>
+        <connection>scm:git:https://github.com/visma/isma-tests.git</connection>
+        <developerConnection>scm:git:https://github.com/visma/isma-tests.git</developerConnection>
+        <url>https://github.com/visma/isma-tests</url>
+    </scm>
+</project>
